@@ -13,6 +13,7 @@ The Leaky Integrate-and-Fire (LIF) Neuron is a simple model of neuronal behavior
 
 When the membrane potential reaches a defined threshold, the neuron fires a spike output, after which the membrane potential resets to zero. This process emulates the firing and reset cycle of biological neurons, providing a digital approximation of spiking behavior.
 
+LIF Neuron Diagram: (https://drive.google.com/uc?export=view&id=19_hF5C_uv8fFWdlOOItlB83z6t2PqFBz)
 
 ## How to test
 
