@@ -5,7 +5,7 @@ sections.
 
 You can also include images in this folder and reference them in the markdown. Each image must be less than
 512 kb in size, and the combined size of all images must be less than 1 MB.
--->[LIF Neuron Diagram](https://drive.google.com/uc?export=view&id=19_hF5C_uv8fFWdlOOItlB83z6t2PqFBz)
+-->
 
 ## How it works
 
