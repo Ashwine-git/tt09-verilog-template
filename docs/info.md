@@ -5,16 +5,19 @@ sections.
 
 You can also include images in this folder and reference them in the markdown. Each image must be less than
 512 kb in size, and the combined size of all images must be less than 1 MB.
--->
+-->[LIF Neuron Diagram](https://drive.google.com/uc?export=view&id=19_hF5C_uv8fFWdlOOItlB83z6t2PqFBz)
 
 ## How it works
 
-Explain how your project works
+The Leaky Integrate-and-Fire (LIF) Neuron is a simple model of neuronal behavior. In this design, the neuron receives an input signal (spike) and integrates this input over time by increasing its internal membrane potential. If there is no input, the membrane potential "leaks" or decays gradually over time, simulating the natural loss of charge in biological neurons.
+
+When the membrane potential reaches a defined threshold, the neuron fires a spike output, after which the membrane potential resets to zero. This process emulates the firing and reset cycle of biological neurons, providing a digital approximation of spiking behavior.
+
+![LIF Neuron Diagram](https://drive.google.com/uc?export=view&id=19_hF5C_uv8fFWdlOOItlB83z6t2PqFBz)
 
 ## How to test
 
-Explain how to use your project
+Do something
 
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+NA
