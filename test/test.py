@@ -24,6 +24,6 @@ async def test_project(dut):
     #await ClockCycles(dut.clk, 100)
 
     #await ClockCycles(dut.clk, 20)
-    #assert dut.uio_out.value == 128
+    #assert dut.uio_out.value == 0
 
     #dut._log.info("Finished Test.!!")
