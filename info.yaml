@@ -3,19 +3,7 @@ project:
   title:        "Integrate-and-Fire Neuron Circuit"      # Project title
   author:       "FNU Ashwine"      # Your name
   discord:      "ashwinelnu_03814"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A simple integrate-and-fire neuron model implemented in Verilog.  
-Input/Output Ports:
-Inputs:
-ui_in [7:0]: Stimulus input for neuron (spikes).
-clk: Clock signal for timing.
-rst_n: Active-low reset for initializing neuron state.
-
-Outputs:
-uo_out [7:0]: Membrane potential of the neuron.
-uio_out[7]: Spike output, goes high when neuron fires.
-
-Circuit Function:
-The circuit simulates a neuron that integrates input signals, leaks potential over time, fires when a threshold is reached, and then resets."      # One line description of what your project does
+  description:  "A simple integrate-and-fire neuron model implemented in Verilog."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -23,13 +11,13 @@ The circuit simulates a neuron that integrates input signals, leaks potential ov
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_lif"
+  top_module:  "tt_um_lifn"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
-    - "tt_um_lif.v"
+    - "tt_um_lifn.v"
     - "lif.v"
 
 
